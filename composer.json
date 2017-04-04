@@ -1,0 +1,30 @@
+{
+    "name": "srayner/psr14",
+    "description": "Common interfaces for events",
+    "keywords": ["psr", "psr-14", "event"],
+    "homepage": "https://github.com/srayner/psr14",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Rayner",
+            "homepage": "http://github.com/srayner"
+        },
+        {
+            "name": "PHP-FIG",
+            "homepage": "http://www.php-fig.org/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Psr\\Event\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
